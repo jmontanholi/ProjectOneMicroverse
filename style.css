@@ -4,6 +4,19 @@ body {
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
+.navlinks {
+  color: black;
+  text-decoration: none;
+}
+
+.navlinks:hover {
+  text-decoration: underline black;
+}
+  
+a {
+  color: #326891;
+}
+
 .flex {
   display: flex;
 }
