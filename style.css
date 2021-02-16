@@ -40,7 +40,7 @@ body {
   background-color: rgb(72, 101, 145);
   color: #fff;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-  border: 0px transparent;
+  border: 0 transparent;
   height: 35px;
   border-radius: 3px;
   font-weight: bold;
