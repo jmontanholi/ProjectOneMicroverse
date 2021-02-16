@@ -117,6 +117,47 @@ img {
   cursor: pointer;
 }
 
+/* Headline */
+#headlineDiv {
+  max-width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: start;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.1rem;
+}
+
+#headlinebtns {
+  display: flex;
+  width: 30%;
+  height: 35px;
+  margin-left: 30%;
+}
+
+.headlineBtn {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+}
+
+.headlineBtn:hover {
+  border: 0.01px solid rgb(82, 82, 82);
+  background-color: white;
+}
+
+.headlineBtn img {
+  max-width: 70%;
+}
+
+#whatslogo {
+  max-width: 50%;
+}
+
 /* Main Page Text */
 #mainImg {
   max-width: 120%;
