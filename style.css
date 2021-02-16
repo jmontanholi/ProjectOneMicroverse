@@ -89,3 +89,16 @@ img {
 #mainImg {
   max-width: 120%;
 }
+
+#authoranchor {
+  color: #333;
+  text-decoration: #ccc underline;
+}
+  
+#authoranchor:hover {
+  text-decoration: none;
+}
+
+#authorh2 {
+  color: #333;
+}
