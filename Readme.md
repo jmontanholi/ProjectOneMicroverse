@@ -28,7 +28,7 @@ live demo link
 
 Contributions, issues, and feature requests are welcome!
 
-## SHow your support
+## Show your support
 
 Give a star if you like this project!
 
