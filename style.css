@@ -217,3 +217,7 @@ img {
 .asideflex {
   display: flex;
 }
+
+#telescope {
+    max-width: 65%;
+}
