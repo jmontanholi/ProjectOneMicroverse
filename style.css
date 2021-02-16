@@ -2,17 +2,10 @@
 body {
   text-align: center;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  margin: 0;
+  padding: 0;
 }
 
-.navlinks {
-  color: black;
-  text-decoration: none;
-}
-
-.navlinks:hover {
-  text-decoration: underline black;
-}
-  
 a {
   color: #326891;
 }
@@ -48,7 +41,9 @@ img {
 
 /* Main Header */
 #logoHeader {
+  height: 42px;
   justify-content: space-around;
+  align-items: center;
   border-bottom: 1px solid rgb(202, 202, 202);
 }
 
@@ -58,6 +53,16 @@ img {
 
 #logoDiv {
   flex: 2;
+}
+
+.navlinks {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+  
+.navlinks:hover {
+  text-decoration: underline black;
 }
 
 #menuDiv {
