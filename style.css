@@ -72,8 +72,8 @@ img {
 }
 
 .asideDiv img {
-    max-width: 25%;
-  }
+  max-width: 25%;
+}
 
 #menuDiv {
   display: flex;
@@ -156,8 +156,6 @@ img {
   background-color: white;
 }
 
-
-
 #whatslogo {
   max-width: 50%;
 }
@@ -224,4 +222,4 @@ img {
   max-width: 65%;
 }
 
-/* stylelint-disable-next-line rule */
+\/* stylelint-disable-next-line rule */
