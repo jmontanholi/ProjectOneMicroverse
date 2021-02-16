@@ -43,7 +43,7 @@ img {
 #logoHeader {
   height: 42px;
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch;
   border-bottom: 1px solid rgb(202, 202, 202);
 }
 
@@ -52,7 +52,8 @@ img {
 }
 
 #logoDiv {
-  flex: 2;
+  flex: 4;
+  align-items: center;
 }
 
 .navlinks {
@@ -65,15 +66,36 @@ img {
   text-decoration: underline black;
 }
 
+.navBtns:hover {
+  background-color: rgb(202, 202, 202, 0.3);
+}
+
 #menuDiv {
-  flex: 0.5;
+  display: flex;
+  align-items: stretch;
+  flex: 1;
   width: 200px;
-  justify-content: flex-end;
+}
+
+#menuDiv a img {
+  max-width: 20%;
+}
+
+#menuDiv a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+#menuDiv .navlinks {
+  flex: 2;
 }
 
 #logoHeaderBtns {
-  flex: 0.5;
+  flex: 1;
   justify-content: start;
+  align-items: center;
 }
 
 #headerBtn1 {
@@ -88,6 +110,11 @@ img {
   height: 35px;
   border-radius: 3px;
   font-weight: bold;
+}
+
+.headerbtn:hover {
+  background-color: rgb(58, 94, 146);
+  cursor: pointer;
 }
 
 /* Main Page Text */
