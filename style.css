@@ -24,14 +24,6 @@ img {
   border: 5px solid blue;
 }
 
-.asideDiv {
-  max-width: 20%;
-  display: flex;
-  float: right;
-  align-content: center;
-  border: 5px solid red;
-}
-
 .imgDiv {
   display: flex;
   flex-direction: column;
@@ -168,10 +160,43 @@ img {
   text-decoration: #ccc underline;
 }
   
+#advertising {
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    width: 30%;
+    font-size: 20px;
+}
+
 #authoranchor:hover {
   text-decoration: none;
 }
 
 #authorh2 {
   color: #333;
+}
+
+.mainText {
+  width: 35%;
+  text-align: start;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 1.25em;
+}
+
+.asideDiv {
+  max-width: 20%;
+  float: right;
+  align-content: center;
+  border: 5px solid red;
+}
+
+.asideDiv img {
+  max-width: 25%;
+}
+
+.asideflex {
+  display: flex;
 }
