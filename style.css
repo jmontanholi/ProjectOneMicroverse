@@ -249,15 +249,15 @@ img {
 }
 
 #inflationtitle {
-    height: 100px;
-    width: 57%;
-    text-align: start;
-    margin-right: auto;
-    margin-left: auto;
+  height: 100px;
+  width: 57%;
+  text-align: start;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #inflationtitle p {
-    color: #666;
+  color: #666;
 }
 
 #inflation {
