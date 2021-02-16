@@ -1,4 +1,4 @@
-/*General Rules*/
+/* General Rules */
 body {
   text-align: center;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
@@ -9,7 +9,7 @@ body {
 }
 
 img {
-  max-width: 5%
+  max-width: 5%;
 }
 
 .largerDiv {
@@ -19,7 +19,7 @@ img {
 }
 
 .asideDiv {
-  display: flex
+  display: flex;
 }
 
 .imgDiv {
@@ -28,6 +28,7 @@ img {
   max-width: 70%;
   border: 5px solid red;
 }
+
 /* Main Header */
 #logoHeader {
   justify-content: space-around;
@@ -66,7 +67,8 @@ img {
   border-radius: 3px;
   font-weight: bold;
 }
+
 /* Main Page Text */
 #mainImg {
-    max-width: 120%;
+  max-width: 120%;
 }
