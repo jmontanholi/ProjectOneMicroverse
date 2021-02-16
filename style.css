@@ -2,6 +2,7 @@ body {
   text-align: center;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
+
 .flex {
   display: flex;
 }
@@ -11,24 +12,30 @@ body {
   justify-content: space-around;
   border-bottom: 1px solid rgb(202, 202, 202);
 }
+
 #logo {
   width: 20%;
 }
+
 #logoDiv {
   flex: 2;
 }
+
 #menuDiv {
   flex: 0.5;
   width: 200px;
   justify-content: flex-end;
 }
+
 #logoHeaderBtns {
   flex: 0.5;
   justify-content: start;
 }
+
 #headerBtn1 {
   margin-right: 7px;
 }
+
 .headerbtn {
   background-color: rgb(72, 101, 145);
   color: #fff;
