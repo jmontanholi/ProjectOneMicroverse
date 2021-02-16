@@ -33,10 +33,15 @@ img {
 
 /* Main Header */
 #logoHeader {
+  position: fixed;
   height: 42px;
   justify-content: space-around;
   align-items: stretch;
   border-bottom: 1px solid rgb(202, 202, 202);
+  background-color: white;
+  padding: 0;
+  margin: 0 auto;
+  top: 0;
 }
 
 #logo {
@@ -117,6 +122,7 @@ img {
   text-align: start;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.1rem;
+  margin-top: 50px;
 }
 
 #headlinebtns {
