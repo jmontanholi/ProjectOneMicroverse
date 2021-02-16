@@ -222,4 +222,16 @@ img {
   max-width: 65%;
 }
 
-/* Trying Something */
+#endtext {
+  color: #666;
+  font-size: 12px;
+}
+
+#endtext a {
+  color: #666;
+}
+
+#endtext a:hover {
+  color: #666;
+  text-decoration: none;
+}
