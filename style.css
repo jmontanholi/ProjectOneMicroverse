@@ -21,14 +21,14 @@ img {
 .largerDiv {
   display: flex;
   justify-content: center;
-  border: 5px solid blue;
+  text-align: start;
 }
 
 .imgDiv {
   display: flex;
+  align-items: center;
   flex-direction: column;
   max-width: 70%;
-  border: 5px solid red;
 }
 
 /* Main Header */
@@ -158,7 +158,19 @@ img {
 
 /* Main Page Text */
 #mainImg {
-  max-width: 120%;
+  max-width: 100%;
+}
+
+.textUnderImg {
+  color: #666;
+}
+
+.imgDiv p {
+    width: 75%;
+}
+
+.credits {
+  color: #888;
 }
 
 #authoranchor {
@@ -167,12 +179,12 @@ img {
 }
   
 #advertising {
-    margin-right: auto;
-    margin-left: auto;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    width: 30%;
-    font-size: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  width: 30%;
+  font-size: 20px;
 }
 
 #authoranchor:hover {
@@ -196,7 +208,6 @@ img {
   max-width: 20%;
   float: right;
   align-content: center;
-  border: 5px solid red;
 }
 
 .asideDiv img {
