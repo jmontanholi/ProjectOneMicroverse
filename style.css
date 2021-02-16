@@ -58,7 +58,7 @@ img {
   text-decoration: none;
   font-weight: bold;
 }
-  
+
 .navlinks:hover {
   text-decoration: underline black;
 }
@@ -66,6 +66,14 @@ img {
 .navBtns:hover {
   background-color: rgb(202, 202, 202, 0.3);
 }
+
+.headlineBtn img {
+  max-width: 70%;
+}
+
+.asideDiv img {
+    max-width: 25%;
+  }
 
 #menuDiv {
   display: flex;
@@ -148,9 +156,7 @@ img {
   background-color: white;
 }
 
-.headlineBtn img {
-  max-width: 70%;
-}
+
 
 #whatslogo {
   max-width: 50%;
@@ -166,7 +172,7 @@ img {
 }
 
 .imgDiv p {
-    width: 75%;
+  width: 75%;
 }
 
 .credits {
@@ -177,7 +183,7 @@ img {
   color: #333;
   text-decoration: #ccc underline;
 }
-  
+
 #advertising {
   margin-right: auto;
   margin-left: auto;
@@ -210,14 +216,12 @@ img {
   align-content: center;
 }
 
-.asideDiv img {
-  max-width: 25%;
-}
-
 .asideflex {
   display: flex;
 }
 
 #telescope {
-    max-width: 65%;
+  max-width: 65%;
 }
+
+/* stylelint-disable-next-line rule */
