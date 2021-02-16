@@ -8,8 +8,25 @@ body {
   display: flex;
 }
 
-img{
-    max-width: 17%
+img {
+  max-width: 5%
+}
+
+.largerDiv {
+  display: flex;
+  justify-content: center;
+  border: 5px solid blue;
+}
+
+.asideDiv {
+  display: flex
+}
+
+.imgDiv {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  border: 5px solid red;
 }
 /* Main Header */
 #logoHeader {
@@ -48,4 +65,8 @@ img{
   height: 35px;
   border-radius: 3px;
   font-weight: bold;
+}
+/* Main Page Text */
+#mainImg {
+    max-width: 120%;
 }
