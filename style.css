@@ -19,7 +19,11 @@ img {
 }
 
 .asideDiv {
+  max-width: 20%;
   display: flex;
+  float: right;
+  align-content: center;
+  border: 5px solid red;
 }
 
 .imgDiv {
