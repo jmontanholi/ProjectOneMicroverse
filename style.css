@@ -75,26 +75,15 @@ img {
   max-width: 25%;
 }
 
-.moreonspaceh3 a {
-  color: black;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.moreonspaceh3 a:hover {
-  color: black;
-  font-weight: bold;
-  text-decoration: underline black;
-}
-
 .mostpopulartext a {
   color: #333;
   text-decoration: none;
   font-weight: bold;
 }
 
-.mostpopulartext a:hover {
-  color: #888;
+.moreonspaceh3 a {
+  color: black;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -109,16 +98,32 @@ img {
   font-size: 13px;
 }
 
-.bottomnavpart a:hover {
-  color: rgb(0, 0, 0);
-  text-decoration: underline rgb(0, 0, 0);
-  margin-top: 12px;
-}
-
 .footer a {
   color: #888;
   font-size: 11px;
   text-decoration: none;
+}
+
+.editorsitemdiv a {
+  color: #333;
+  text-decoration: none;
+}
+
+.moreonspaceh3 a:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline black;
+}
+
+.mostpopulartext a:hover {
+  color: #888;
+  text-decoration: none;
+}
+
+.bottomnavpart a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline rgb(0, 0, 0);
+  margin-top: 12px;
 }
 
 .footer a:hover {
@@ -129,11 +134,6 @@ img {
 
 .editorsitemdiv img {
   max-width: 50%;
-}
-
-.editorsitemdiv a {
-  color: #333;
-  text-decoration: none;
 }
 
 .editorsitemdiv a:hover {
