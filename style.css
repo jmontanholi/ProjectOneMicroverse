@@ -147,8 +147,10 @@ img {
   margin-left: auto;
   text-align: start;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1.1rem;
+  font-size: 33px;
   margin-top: 50px;
+  margin-bottom: 15px;
+  height: 60px;
 }
 
 .headlinebtns {
@@ -225,6 +227,15 @@ img {
   margin-left: auto;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 1.25em;
+}
+
+#video {
+  margin: 15px auto 10px auto;
+}
+
+.videotxt {
+  max-width: 40%;
+  margin: 0 auto 15px auto;
 }
 
 .asideDiv {
