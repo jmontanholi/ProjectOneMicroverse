@@ -13,7 +13,7 @@ The project consists in making a copy of this article by the New York Times: htt
 
 ##  Live Demo
 
-live demo link
+- https://jmontanholi.github.io/ProjectOneMicroverse/
 
 ## Authors
 
