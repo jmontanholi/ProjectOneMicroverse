@@ -188,6 +188,8 @@ img {
 
 .textUnderImg {
   color: #666;
+  margin-top: 8px;
+  margin-bottom: 10px;
 }
 
 .imgDiv p {
@@ -218,6 +220,11 @@ img {
 
 #authorh2 {
   color: #333;
+  margin-bottom: 15px;
+}
+
+#time {
+  margin-bottom: 15px;
 }
 
 .mainText {
