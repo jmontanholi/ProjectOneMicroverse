@@ -593,3 +593,22 @@ img {
   font-weight: bold;
   font-size: 13px;
 }
+
+.footer {
+  max-width: 70%;
+  margin: 0 auto 40px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer a {
+  color: #888;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #888;
+  font-size: 11px;
+  text-decoration: underline #888;
+}
