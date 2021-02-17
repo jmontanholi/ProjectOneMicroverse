@@ -298,6 +298,7 @@ img {
 #endtext {
   color: #666;
   font-size: 12px;
+  margin: 15px auto 15px auto;
 }
 
 #endtext a {
@@ -313,8 +314,7 @@ img {
   display: flex;
   justify-content: space-between;
   width: 35%;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 15px auto 75px auto;
 }
 
 #endoftextbtn {
