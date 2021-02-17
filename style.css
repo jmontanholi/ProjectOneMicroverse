@@ -527,7 +527,28 @@ img {
 }
 
 .bottomlogohome {
+  margin:0 auto 0 auto;
+  max-width: 70%;
+  height: 30px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
+  align-items: flex-end;
+  border-top: 2px double #e2e2e2
+}
+
+.bottomlogo {
+  display: flex;
+  align-items: flex-start;
+  flex: 10;
+}
+
+.bottomhome {
+  flex: 1;
+  font-size: 11px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.bottomhome a {
+  text-decoration: none;
 }
