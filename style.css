@@ -408,12 +408,18 @@ img {
 }
 
 .moreonspaceh3 {
+  color: #333;
+  font-weight: bold;
   max-width: 45%;
   margin-left: 18%;
   text-align: left;
   border-top: 1px solid #333;
   padding-top: 15px;
   margin-bottom: 15px;
+}
+
+.moreonspaceh3:hover {
+  text-decoration: underline #333;
 }
 
 .moreonspaceh3 a {
@@ -501,4 +507,22 @@ img {
 .mostpopulartext a:hover {
   color: #888;
   text-decoration: none;
+}
+
+.endpageeditorsdiv {
+  display: flex;
+  height: 620px;
+  max-width: 45%;
+  margin-left: 18%;
+  border-bottom: 1px solid #333;
+  justify-content: space-evenly;
+}
+
+.endpageeditorsdiv * {
+  flex-basis: 250px;
+}
+
+.bottomdate {
+  color: #888;
+  font-size: 12px;
 }
