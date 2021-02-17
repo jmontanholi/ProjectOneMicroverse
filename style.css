@@ -212,6 +212,8 @@ img {
   font-size: 20px;
   text-align: center;
   margin: 25px auto 25px auto;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 #authoranchor:hover {
