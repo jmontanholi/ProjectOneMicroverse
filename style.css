@@ -321,6 +321,13 @@ img {
   flex: 4;
 }
 
+
+#inflationdiv {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 #inflationtitle {
   height: 100px;
   width: 57%;
@@ -335,4 +342,65 @@ img {
 
 #inflation {
   max-width: 55%;
+}
+
+.texttitle {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin-right: 7px;
+}
+
+.inflationText {
+  text-align: left;
+  position: absolute;
+  max-width: 11%;
+  height: 145px;
+  font-size: 14px;
+}
+
+.t1 {
+  top: 260px;
+  left: 23%;
+}
+
+.t2 {
+  top: 260px;
+  left: 37%;
+}
+
+.t3 {
+  top: 260px;
+  left: 51%;
+}
+
+.t4 {
+  top: 260px;
+  left: 65%;
+}
+
+.t5 {
+  bottom: 50px;
+  left: 23%;
+}
+
+.t6 {
+  bottom: 50px;
+  left: 37%;
+}
+
+.t7 {
+  bottom: 50px;
+  left: 51%;
+}
+
+.t8 {
+  bottom: 50px;
+  left: 65%;
+}
+
+.inflationbottom{
+  max-width: 54%;
+  margin: 0 auto 0 auto;
+  text-align: left;
+  color: #333;
 }
