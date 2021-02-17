@@ -533,7 +533,8 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  border-top: 2px double #e2e2e2
+  border-top: 2px double #e2e2e2;
+  margin-bottom: 20px;
 }
 
 .bottomlogo {
@@ -551,4 +552,44 @@ img {
 
 .bottomhome a {
   text-decoration: none;
+}
+
+.bottomflex {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomnavflex {
+  display: flex;
+  width: 70%;
+  margin: 0 auto 0 auto;
+  height: 420px;
+  border-bottom: 0.5px solid #ccc;
+  margin-bottom: 25px;
+}
+
+.bottomnavpart {
+  text-align: left;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomnavpart a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-top: 12px;
+  font-size: 13px;
+}
+
+.bottomnavpart a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline rgb(0, 0, 0);
+  margin-top: 12px;
+}
+
+.bottomnavtitle {
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  font-size: 13px;
 }
