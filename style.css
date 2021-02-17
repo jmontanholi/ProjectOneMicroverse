@@ -511,10 +511,9 @@ img {
 
 .endpageeditorsdiv {
   display: flex;
-  height: 620px;
+  height: 320px;
   max-width: 45%;
   margin-left: 18%;
-  border-bottom: 1px solid #333;
   justify-content: space-evenly;
 }
 
@@ -525,4 +524,10 @@ img {
 .bottomdate {
   color: #888;
   font-size: 12px;
+}
+
+.bottomlogohome {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
 }
