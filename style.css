@@ -188,8 +188,11 @@ img {
   margin-left: auto;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-  width: 30%;
+  width: 50%;
   font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
 }
 
 #authoranchor:hover {
