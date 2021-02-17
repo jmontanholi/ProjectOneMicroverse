@@ -215,6 +215,7 @@ img {
   align-content: center;
   margin-right: 21%;
   border: 1px solid red;
+  height: 350px;
 }
 
 .asideflex {
@@ -231,6 +232,21 @@ img {
   font-size: 15px;
   border-bottom: 1px solid #888;
   margin-bottom: 12px;
+}
+
+.editorsitemdiv {
+  flex: 1;
+  font-size: 13px;
+}
+
+.editorsitemdiv a {
+  color: #333;
+  text-decoration: none;
+}
+
+.editorsitemdiv a:hover {
+  color: #333;
+  text-decoration: underline #333;
 }
 
 #telescope {
