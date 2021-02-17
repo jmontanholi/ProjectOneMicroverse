@@ -210,33 +210,38 @@ img {
 }
 
 .asideDiv {
-  max-width: 11%;
+  max-width: 12%;
   float: right;
   align-content: center;
-  margin-right: 21%;
-  border: 1px solid red;
-  height: 350px;
+  margin-right: 19%;
 }
 
 .asideflex {
+  flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
 }
 
 .asidetitle {
   display: flex;
   justify-content: start;
   align-items: center;
-  height: 30px;
   font-weight: bold;
   font-size: 15px;
   border-bottom: 1px solid #888;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .editorsitemdiv {
   flex: 1;
   font-size: 13px;
+}
+
+.editorsitemdiv img {
+  max-width: 50%;
 }
 
 .editorsitemdiv a {
@@ -247,6 +252,25 @@ img {
 .editorsitemdiv a:hover {
   color: #333;
   text-decoration: underline #333;
+}
+
+.editorsitemflex {
+  display: flex;
+}
+
+.editorsitemimg {
+  flex: 1;
+}
+
+.editorsitemimg img{
+  max-width: 100%;
+}
+
+.editorsitemtext {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 3px;
 }
 
 #telescope {
