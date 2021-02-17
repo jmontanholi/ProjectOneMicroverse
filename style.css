@@ -75,6 +75,24 @@ img {
   max-width: 25%;
 }
 
+.editorsitemdiv img {
+  max-width: 50%;
+}
+
+.editorsitemdiv a {
+  color: #333;
+  text-decoration: none;
+}
+
+.editorsitemdiv a:hover {
+  color: #333;
+  text-decoration: underline #333;
+}
+
+.editorsitemimg img{
+  max-width: 100%;
+}
+
 #menuDiv {
   display: flex;
   align-items: stretch;
@@ -240,30 +258,12 @@ img {
   font-size: 13px;
 }
 
-.editorsitemdiv img {
-  max-width: 50%;
-}
-
-.editorsitemdiv a {
-  color: #333;
-  text-decoration: none;
-}
-
-.editorsitemdiv a:hover {
-  color: #333;
-  text-decoration: underline #333;
-}
-
 .editorsitemflex {
   display: flex;
 }
 
 .editorsitemimg {
   flex: 1;
-}
-
-.editorsitemimg img{
-  max-width: 100%;
 }
 
 .editorsitemtext {
