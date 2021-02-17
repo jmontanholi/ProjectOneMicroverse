@@ -217,6 +217,7 @@ img {
 
 .asideflex {
   display: flex;
+  flex-direction: column;
 }
 
 #telescope {
