@@ -210,14 +210,27 @@ img {
 }
 
 .asideDiv {
-  max-width: 20%;
+  max-width: 11%;
   float: right;
   align-content: center;
+  margin-right: 21%;
+  border: 1px solid red;
 }
 
 .asideflex {
   display: flex;
   flex-direction: column;
+}
+
+.asidetitle {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  border-bottom: 1px solid #888;
+  margin-bottom: 12px;
 }
 
 #telescope {
