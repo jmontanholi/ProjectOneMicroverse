@@ -34,6 +34,7 @@ img {
 /* Main Header */
 #logoHeader {
   position: fixed;
+  z-index: 1;
   height: 42px;
   justify-content: space-around;
   align-items: stretch;
