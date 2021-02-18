@@ -733,7 +733,8 @@ img {
   border-radius: 5px;
 }
 
-.active, #openbtn:hover {
+.active,
+#openbtn:hover {
   background-color: rgb(58, 94, 146);
   cursor: pointer;
 }
@@ -791,7 +792,6 @@ img {
 .radiofield {
   margin: 15px auto 10px auto;
 }
-
 
 .submit {
   font-size: 23px;
