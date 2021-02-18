@@ -168,6 +168,7 @@ img {
 
 .navbtns:hover {
   background-color: rgb(245, 245, 245);
+  cursor: pointer;
 }
 
 #menuDiv .navlinks {
@@ -217,23 +218,25 @@ img {
   display: flex;
   width: 30%;
   height: 35px;
-  margin-left: 30%;
+  margin: 0 0 20px 30%;
 }
 
 .headlineBtn {
-  width: 30px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #ccc;
-  margin-left: 15px;
-  margin-bottom: 5px;
+  color: black;
+  background-color: #eee;
   border-radius: 50%;
+  border: 1px solid #eee;
+  width: 25px;
+  height: 25px;
+  text-decoration: none;
+  margin-left: 15px;
 }
 
 .headlineBtn:hover {
-  border: 0.01px solid rgb(82, 82, 82);
+  border: 1px solid rgb(82, 82, 82);
   background-color: white;
 }
 
