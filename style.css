@@ -723,3 +723,96 @@ img {
   display: flex;
   justify-content: space-around;
 }
+
+#openbtn {
+  font-size: 18px;
+  background-color: rgb(72, 101, 145);
+  color: white;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+}
+
+.active, #openbtn:hover {
+  background-color: rgb(58, 94, 146);
+  cursor: pointer;
+}
+
+.formclosed {
+  max-width: 30%;
+  margin: 15px auto 0 auto;
+  display: none;
+  overflow: hidden;
+  flex-direction: column;
+  border: 3px solid rgb(72, 101, 145);
+  border-radius: 50px;
+  background-color: rgb(230, 230, 230);
+}
+
+.formopened {
+  max-width: 30%;
+  margin: 15px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(72, 101, 145);
+  border-radius: 50px;
+  background-color: rgb(230, 230, 230);
+}
+
+.form * {
+  flex: 1;
+}
+
+.mainfieldset {
+  display: flex;
+  flex: 1;
+  align-items: stretch;
+  justify-content: stretch;
+  flex-direction: column;
+}
+
+.mainlabel {
+  flex: 1;
+  margin-top: 10px;
+}
+
+.commentfieldset {
+  max-width: 30%;
+  margin: 10px auto 0 auto;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.commentfieldset label {
+  margin-bottom: 5px;
+}
+
+.radiofield {
+  margin: 15px auto 10px auto;
+}
+
+
+.submit {
+  font-size: 23px;
+  background-color: rgb(72, 101, 145);
+  color: white;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  max-width: 20%;
+  margin: 5px auto 5px auto;
+}
+
+.submit:hover {
+  background-color: rgb(58, 94, 146);
+  cursor: pointer;
+}
+
+.checkboxfield {
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  margin-right: 15px;
+}
