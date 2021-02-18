@@ -202,13 +202,11 @@ img {
 /* Headline */
 #headlineDiv {
   max-width: 30%;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 100px auto 30px auto;
   text-align: start;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:'Fondamento', 'cursive', 'Arial Narrow', Arial, sans-serif;
   font-size: 33px;
-  margin-top: 50px;
-  margin-bottom: 15px;
+  font-weight: bold;
   height: 60px;
 }
 
