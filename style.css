@@ -499,6 +499,7 @@ img {
   text-align: left;
   padding-top: 15px;
   margin-bottom: 15px;
+  border-top: 1px solid #666;
 }
 
 .moreonspaceh3:hover {
@@ -511,7 +512,6 @@ img {
   height: 620px;
   max-width: 50%;
   margin-left: 16.8%;
-  border-bottom: 1px solid #333;
 }
 
 .moreonspace * {
@@ -548,7 +548,7 @@ img {
   max-width: 18%;
   float: right;
   height: 650px;
-  margin-right: 17.5%;
+  margin-right: 16%;
 }
 
 .bottombtns {
