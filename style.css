@@ -383,13 +383,15 @@ img {
 
 #endoftextdiv {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   width: 35%;
   margin: 15px auto 75px auto;
 }
 
 #endoftextbtn {
-  flex: 4;
+  flex-basis: 400px;
 }
 
 .moreonspacetxt p {
@@ -538,7 +540,7 @@ img {
 .bottombtns {
   display: flex;
   width: 40%;
-  margin: 0 0 20px 30%;
+  margin-left: 50px;
 }
 
 .bottomBtn {
