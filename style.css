@@ -64,10 +64,6 @@ img {
   text-decoration: underline black;
 }
 
-.navBtns:hover {
-  background-color: rgb(202, 202, 202, 0.3);
-}
-
 .headlineBtn img {
   max-width: 70%;
 }
@@ -149,19 +145,29 @@ img {
 #menuDiv {
   display: flex;
   align-items: stretch;
+  justify-content: space-between;
+  flex: 1.5;
+  margin: 0;
+}
+
+.menuDivcenter {
+  display: flex;
+  align-items: center;
   flex: 1;
-  width: 200px;
+  margin: 0;
 }
 
 #menuDiv a img {
   max-width: 20%;
 }
 
-#menuDiv a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.navbtns {
   flex: 1;
+  padding: 12px;
+}
+
+.navbtns:hover {
+  background-color: rgb(245, 245, 245);
 }
 
 #menuDiv .navlinks {
