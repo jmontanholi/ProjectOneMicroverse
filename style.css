@@ -535,6 +535,31 @@ img {
   margin-right: 18%;
 }
 
+.bottombtns {
+  display: flex;
+  width: 40%;
+  margin: 0 0 20px 30%;
+}
+
+.bottomBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: #eee;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  width: 25px;
+  height: 25px;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.bottomBtn:hover {
+  border: 1px solid rgb(82, 82, 82);
+  background-color: white;
+}
+
 .mostpopulartitle {
   text-align: left;
   color: #333;
