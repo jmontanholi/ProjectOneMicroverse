@@ -500,10 +500,9 @@ img {
   display: flex;
   flex-wrap: wrap;
   height: 620px;
-  max-width: 45%;
-  margin-left: 18%;
+  max-width: 50%;
+  margin-left: 16.8%;
   border-bottom: 1px solid #333;
-  justify-content: space-evenly;
 }
 
 .moreonspace * {
@@ -517,6 +516,7 @@ img {
 .moreonspacedivs {
   flex-basis: 275px;
   text-align: left;
+  margin-left: 20px;
 }
 
 .moreonspacetxt {
@@ -531,10 +531,10 @@ img {
 .mostpopulardiv {
   display: flex;
   flex-direction: column;
-  max-width: 16%;
+  max-width: 20%;
   float: right;
   height: 650px;
-  margin-right: 18%;
+  margin-right: 15%;
 }
 
 .bottombtns {
